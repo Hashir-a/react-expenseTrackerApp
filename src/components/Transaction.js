@@ -1,5 +1,5 @@
 import React, {useContext} from 'react'
-import {GlobalContext, Globalcontext} from '../context/GlobalState';
+import {Globalcontext} from '../context/GlobalState';
 
 export default function Transaction({transaction}) {
     const {deleteTransaction} =useContext(Globalcontext);

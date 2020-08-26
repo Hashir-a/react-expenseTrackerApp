@@ -10,11 +10,11 @@ function App() {
   return (
       <GlobalProvider>
         <div className = "container" className ="corner">
-          <Header></Header>
-          <Balance></Balance>
-          <IncomeExpanses></IncomeExpanses>
-          <TransactionsList></TransactionsList>
-          <AddTransaction></AddTransaction>
+          <Header/>
+          <Balance/>
+          <IncomeExpanses/>
+          <TransactionsList/>
+          <AddTransaction/>
         </div>
       </GlobalProvider>
   );
